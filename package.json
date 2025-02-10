@@ -1,0 +1,24 @@
+{
+  "name": "ecom-raffle-server",
+  "version": "1.0.0",
+  "description": "ecom-raffle-server",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest",
+    "dev": "nodemon app.js"
+  },
+  "keywords": [
+    "server",
+    "ecom",
+    "raffle"
+  ],
+  "author": "Calum Bradley",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
