@@ -1,7 +1,8 @@
 const express = require("express");
 const cors = require("cors");
 require("dotenv").config();
-const data = require("./data");
+const productsData = require("./products-data");
+const storeData = require("./store-data");
 
 const app = express();
 
@@ -14,7 +15,11 @@ const corsOptions = {
 app.use(cors(corsOptions));
 
 app.get("/api/products", (req, res) => {
-  res.send(data);
+  res.send(productsData);
+});
+
+app.get("/api/store", (req, res) => {
+  res.send(storeData);
 });
 
 app.listen(port, () => {

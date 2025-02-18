@@ -1,0 +1,35 @@
+{
+  "store": [
+    {
+      "node": {
+        "id": "Z2lkOi8vc2hveGlmeS9Qcm9kdWN0LzE=",
+        "title": "Golf Comps UK",
+        "description": "Prize competition store for golf merchandise.",
+        "handle": "golf-comps-uk",
+        "currency": "£",
+        "images": {
+          "edges": [
+            {
+              "node": {
+                "id": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0SW1hZ2UvMTE=",
+                "originalSrc": "https://placehold.co/1000x1000",
+                "height": 1000,
+                "width": 1000,
+                "altText": "Store Image 1"
+              }
+            },
+            {
+              "node": {
+                "id": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0SW1hZ2UvMTI=",
+                "originalSrc": "https://placehold.co/1000x1000",
+                "height": 1000,
+                "width": 1000,
+                "altText": "Store Image 2"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
