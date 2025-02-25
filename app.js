@@ -19,10 +19,23 @@ app.get("/api/products", (req, res) => {
     id: product.node.id,
     title: product.node.title,
     description: product.node.description,
-    price: product.node.price,
+    pricePerEntry: product.node.pricePerEntry,
     images: product.node.images,
   }));
   res.send({ products: filteredProducts });
+});
+
+app.get("/api/product/:id", (req, res) => {
+  const productId = req.params.id;
+  const product = productsData.products.find(
+    (product) => product.node.id === productId
+  );
+
+  if (product) {
+    res.send({ product: product.node });
+  } else {
+    res.status(404).send({ error: "Product not found" });
+  }
 });
 
 app.get("/api/store", (req, res) => {
