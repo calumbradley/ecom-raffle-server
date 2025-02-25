@@ -30,7 +30,9 @@
         },
         "pricePerEntry": "299.99",
         "totalTickets": 100,
-        "soldTickets": 50
+        "soldTickets": 50,
+        "question": "Which of these is a golf brand?",
+        "answers": ["Titleist", "Spessavers", "Audi"]
       }
     },
     {
@@ -63,7 +65,9 @@
         },
         "pricePerEntry": "19.99",
         "totalTickets": 100,
-        "soldTickets": 80
+        "soldTickets": 80,
+        "question": "What is the standard size of a golf ball?",
+        "answers": ["1.68 inches", "2.00 inches", "1.50 inches"]
       }
     },
     {
@@ -96,7 +100,9 @@
         },
         "pricePerEntry": "14.99",
         "totalTickets": 100,
-        "soldTickets": 60
+        "soldTickets": 60,
+        "question": "Which company manufactures the Nike Golf Glove?",
+        "answers": ["Nike", "Adidas", "Puma"]
       }
     },
     {
@@ -129,7 +135,9 @@
         },
         "pricePerEntry": "149.99",
         "totalTickets": 100,
-        "soldTickets": 10
+        "soldTickets": 10,
+        "question": "What is the primary material used in TaylorMade Golf Bags?",
+        "answers": ["Nylon", "Leather", "Polyester"]
       }
     },
     {
@@ -162,7 +170,9 @@
         },
         "pricePerEntry": "129.99",
         "totalTickets": 100,
-        "soldTickets": 25
+        "soldTickets": 25,
+        "question": "Which of these is a famous golf putter brand?",
+        "answers": ["Ping", "Sony", "Samsung"]
       }
     },
     {
@@ -195,7 +205,9 @@
         },
         "pricePerEntry": "99.99",
         "totalTickets": 100,
-        "soldTickets": 65
+        "soldTickets": 65,
+        "question": "Which company manufactures Adidas Golf Shoes?",
+        "answers": ["Adidas", "Nike", "Puma"]
       }
     }
   ]
