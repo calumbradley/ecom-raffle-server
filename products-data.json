@@ -63,7 +63,7 @@
         },
         "pricePerEntry": "19.99",
         "totalTickets": 100,
-        "soldTickets": 50
+        "soldTickets": 80
       }
     },
     {
@@ -96,7 +96,7 @@
         },
         "pricePerEntry": "14.99",
         "totalTickets": 100,
-        "soldTickets": 50
+        "soldTickets": 60
       }
     },
     {
@@ -129,7 +129,7 @@
         },
         "pricePerEntry": "149.99",
         "totalTickets": 100,
-        "soldTickets": 50
+        "soldTickets": 10
       }
     },
     {
@@ -162,7 +162,7 @@
         },
         "pricePerEntry": "129.99",
         "totalTickets": 100,
-        "soldTickets": 50
+        "soldTickets": 25
       }
     },
     {
@@ -195,7 +195,7 @@
         },
         "pricePerEntry": "99.99",
         "totalTickets": 100,
-        "soldTickets": 50
+        "soldTickets": 65
       }
     }
   ]
